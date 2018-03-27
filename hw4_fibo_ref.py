@@ -7,4 +7,4 @@ for i in range(2, num):
     num = fibo_list[-1] + fibo_list[-2]
     fibo_list.append(num)
 
-print('費氏數列第', num, '個數字是', fibo_list[-1])
+print('費氏數列第', num, '個數字是', fibo_list[num])
