@@ -7,4 +7,7 @@ for i in range(2, num):
         print("NOT PRIME")
         break
 else:
-    print("PRIME")
+    if num > 1:
+        print("PRIME")
+    else:
+        print("NOT PRIME")
