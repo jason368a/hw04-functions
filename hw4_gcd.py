@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-def compute_gcd(num):
+def compute_gcd(a, b):
     # your code here ...
     return ...
 
