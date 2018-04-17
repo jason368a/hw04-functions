@@ -2,8 +2,11 @@
 
 
 def compute_gcd(a, b):
-    # your code here ...
-    return ...
+    b,a=a,b%a
+    if a==0:
+        return b
+    else:
+        return gcd(b,a)
 
 
 a = int(input("輸入第一個數字: "))
